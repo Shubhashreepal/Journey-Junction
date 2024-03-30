@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Journey Junction</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- font awesome cdn -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- fonts -->
+        <link rel = "stylesheet" href = "font/fonts.css">
+        <!-- normalize css -->
+        <link rel = "stylesheet" href = "css/normalize.css">
+        <!-- custom css -->
+        <link rel = "stylesheet" href = "css/utility.css">
+        <link rel = "stylesheet" href = "css/style.css">
+        <link rel = "stylesheet" href = "css/responsive.css">
+    </head>
+    <body>
+        <!-- navbar  -->
+        <nav class = "navbar">
+            <div class = "container flex">
+                <a href = "index.html" class = "site-brand">
+                    Journey<span>Junction</span>
+                </a>
+
+                <button type = "button" id = "navbar-show-btn" class = "flex">
+                    <i class = "fas fa-bars"></i>
+                </button>
+                <div id = "navbar-collapse">
+                    <button type = "button" id = "navbar-close-btn" class = "flex">
+                        <i class = "fas fa-times"></i>
+                    </button>
+                    <ul class = "navbar-nav">
+                        <li class = "nav-item">
+                            <a href = "index.html" class = "nav-link">Home</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "gallery.html" class = "nav-link">Gallery</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "blog.html" class = "nav-link">Blog</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "about.html" class = "nav-link">About</a>
+                        </li>
+                        <li class = "nav-item">
+                            <a href = "contact.html" class = "nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- end of navbar  -->
+
+        <!-- header -->
+        <header class = "flex">
+            <div class = "container">
+                <div class = "header-title">
+                    <h1>Discover Your Next Adventure: Explore, Dream, Wander with Us!</h1>
+                    <p>Welcome to Journey Junction, where every journey is a story waiting to be told. Embark on a voyage of discovery with us as we unravel the mysteries of the world's most captivating destinations.</p>
+                </div>
+                <div class = "header-form">
+                    <h2>Choose your Travel destination:</h2>
+                    <form class = "flex">
+                        <input type = "text" class = "form-control" placeholder="Destination name">
+                        <input type="date" class = "form-control" placeholder="start Date">
+                        <input type="number" class = "form-control" placeholder="Duration">
+                        <input type="number" class = "form-control" placeholder="Price ($)">
+                        <input type="submit" class = "btn" value = "Search">
+                    </form>
+                </div>
+            </div>
+        </header>
+        <!-- header -->
+
+        <!-- featured section -->
+        <section id = "featured" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">Our Some top Destination</span>
+                    <h2 class = "lg-title">featured places</h2>
+                </div>
+
+                <div class = "featured-row">
+                    <div class = "featured-item my-2 shadow">
+                        <img src = ".\images\Munnar_hill_station_.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Munnar, India
+                            </span>
+                            <div>
+                                <p class = "text">Nestled amidst the lush greenery of Kerala's Western Ghats, Munnar stands as a picturesque haven of tranquility and natural beauty. Located in the Idukki district, this enchanting hill station is renowned for its sprawling tea plantations, misty mountains, and serene valleys. </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = ".\images\jeju-island-korea.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Jeju Island, South Korea
+                            </span>
+                            <div>
+                                <p class = "text">Nestled in the azure waters of the Korean Strait, Jeju Island beckons travelers with its enchanting landscapes, rich cultural heritage, and vibrant allure.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = ".\images\venice.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Venice, Italy
+                            </span>
+                            <div>
+                                <p class = "text">Venice, Italy, often referred to as the "City of Canals" or the "Floating City," is a mesmerizing destination unlike any other. Situated in northeastern Italy</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = ".\images\berlin.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Berlin, Germany
+                            </span>
+                            <div>
+                                <p class = "text">Berlin, the vibrant capital of Germany, is a city that effortlessly blends rich history with modern culture, creating an eclectic tapestry that captivates visitors from around the globe.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = ".\images\kashmir.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                Kashmir,India
+                            </span>
+                            <div>
+                                <p class = "text">Nestled in the northernmost part of India, Kashmir is a land of breathtaking beauty and enchanting serenity. Known as "Paradise on Earth</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "featured-item my-2 shadow">
+                        <img src = ".\images\maldiv.jpg" alt = "featured place">
+                        <div class = "featured-item-content">
+                            <span>
+                                <i class = "fas fa-map-marker-alt"></i>
+                                fuvahmulah, maldives
+                            </span>
+                            <div>
+                                <p class = "text">The Maldives, an archipelago of 26 atolls nestled in the heart of the Indian Ocean, beckons travelers to indulge in its paradisiacal beauty.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of featured section -->
+
+        <!-- services section -->
+        <section id = "services" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">Know More About Us</span>
+                    <h2 class = "lg-title">Our  top services</h2>
+                </div>
+
+                <div class = "services-row">
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-money-bill"></i>
+                        </span>
+                        <h3> Resonable Price</h3>
+                        <p class = "text">endulge in luxury without breaking the bank with our unbeatable rates and special offers tailored to suit every budget. </p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-map-marked-alt"></i>
+                        </span>
+                        <h3>Expert Guidence</h3>
+                        <p class = "text">Our services include expert guidance from seasoned travelers, ensuring you unlock the hidden gems of your destination with insider knowledge and personalized recommendations.</p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+
+                    <div class = "services-item">
+                        <span class = "services-icon">
+                            <i class = "fas fa-hotel"></i>
+                        </span>
+                        <h3>Comfotable Journey</h3>
+                        <p class = "text">Experience unparalleled comfort and luxury as you journey to your dream destination with our premium travel services. </p>
+                        <a href = "#" class = "btn">Read more</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of services section -->
+
+        <!-- testimonials section -->
+        <section id = "testimonials" class = "py-4">
+            <div class = "container">
+                <div class = "title-wrap">
+                    <span class = "sm-title">Our Client reviews</span>
+                    <h2 class = "lg-title">testimonials</h2>
+                </div>
+
+                <div class = "test-row">
+                    <div class = "test-item">
+                        <p class = "text">Our experience with Wanderlust Adventures was nothing short of magical! From the moment we booked our trip to the day we returned home, every detail was meticulously planned and executed flawlessly. The breathtaking landscapes, luxurious accommodations, and personalized service made our journey unforgettable. </p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-1.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Tom Holland</h3>
+                                <p class = "text">Trip to Berlin</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">"Traveling with Wanderlust Adventures was a dream come true. The professionalism and expertise of their team ensured that our trip to the Maldives exceeded all expectations. We were treated to stunning sunsets, exhilarating excursions, and moments of pure relaxation. It was truly the trip of a lifetime, and we're already planning our next getaway with Wanderlust Adventures!"</p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-2.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Ryan Goslin</h3>
+                                <p class = "text">Trip to Maldives</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class = "test-item">
+                        <p class = "text">As a solo traveler, I was initially hesitant to book a trip with a tour company. However, Wanderlust Adventures exceeded all my expectations and made me feel right at home from the moment I arrived. Their knowledgeable guides, carefully curated itineraries, and friendly staff made me feel safe and supported throughout my entire journey. </p>
+                        <div class = "test-item-info">
+                            <img src = "images/test-3.jpg" alt = "testimonial">
+                            <div>
+                                <h3>Raymond Holt</h3>
+                                <p class = "text">Trip to South Korea</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- end of testimonials section -->
+
+        <!-- video section -->
+        <section id = "video">
+            <div class = "video-wrapper flex">
+                <video loop>
+                    <source src = ".\videos\4035859-hd_1920_1080_25fps.mp4" type = "video/mp4">
+                </video>
+                <button type = "button" id = "play-btn">
+                    <i class = "fas fa-play"></i>
+                </button>
+            </div>
+        </section>
+        <!-- end of video section -->
+
+        <!-- footer -->
+        <footer class = "py-4">
+            <div class = "container footer-row">
+                <div class = "footer-item">
+                    <a href = "index.html" class = "site-brand">
+                        Journey<span>Junction</span>
+                    </a>
+                    <p class = "text">Welcome to Journey Junction, where every journey is a story waiting to be told. Embark on a voyage of discovery with us as we unravel the mysteries of the world's most captivating destinations.</p>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Follow us on: </h2>
+                    <ul class = "social-links">
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-facebook-f"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-pinterest"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-google-plus"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-instagram"></i>
+                            </a>
+                        </li>
+                        <li>
+                            <a href = "#">
+                                <i class = "fab fa-twitter"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class = "footer-item">
+                    <h2>Popular Places:</h2>
+                    <ul>
+                        <li><a href = "#">India</a></li>
+                        <li><a href = "#">Italy</a></li>
+                        <li><a href = "#">Maldives</a></li>
+                        <li><a href = "#">France</a></li>
+                        <li><a href = "#">Germany</a></li>
+                    </ul>
+                </div>
+
+                <div class = "subscribe-form footer-item">
+                    <h2>Subscribe for Newsletter!</h2>
+                    <form class = "flex">
+                        <input type = "email" placeholder="Enter Email" class = "form-control">
+                        <input type = "submit" class = "btn" value = "Subscribe">
+                    </form>
+                </div>
+            </div>
+        </footer>
+        <!-- end of footer -->
+
+        <!-- js -->
+        <script src = "js/script.js"></script>
+        <script>
+            // play/pause video
+            let video = document.querySelector('.video-wrapper video');
+            document.getElementById('play-btn').addEventListener('click', () => {
+                if(video.paused){
+                    video.play();
+                } else {
+                    video.pause();
+                }
+            });
+        </script>
+    </body>
+</html>
